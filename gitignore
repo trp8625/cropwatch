@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# GEE credentials — never commit these
+~/.config/earthengine/
+credentials
+.earthengine/
+service_account_key.json
+*.json
+
+# Data files
+*.tif
+*.tiff
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.csv
+fields.csv
+
+# Outputs
+*.png
+*.jpg
+*.pdf
+sample_outputs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
